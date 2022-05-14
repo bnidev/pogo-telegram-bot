@@ -1,0 +1,19 @@
+{
+    "telegram": {
+        "token": "--YOUR-TELEGRAM-BOT-TOKEN-HERE--",
+        "userId": "--YOUR-TELEGRAM-USER-ID-HERE--",
+        "rareChannelId": "--TELEGRAM-CHANNEL-ID-HERE",
+        "greatChannelId": "--TELEGRAM-CHANNEL-ID-HERE",
+        "ultraChannelId": "--TELEGRAM-CHANNEL-ID-HERE"
+    },
+    "api": {
+        "baseUrl": "--BASE-URL-OF-YOUR-API-HERE"
+    },
+    "pokemon_filter": {
+        "centerLat": 0, 
+        "centerLon": 0,
+        "filterRadius": 20,
+        "rareList": [201, 610, 611, 612, 634, 635],
+        "candyList": [559, 560, 608, 609]
+    }
+}
