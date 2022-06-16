@@ -31444,6 +31444,82 @@
     }
   },
   {
+    "base_attack": 67,
+    "base_defense": 74,
+    "base_stamina": 93,
+    "pokemon_id": 767,
+    "pokemon_name": "Wimpod",
+    "pokemon_name_de": "Reißlaus",
+    "type": ["Bug", "Water"],
+    "type_de": ["Käfer", "Water"],
+    "pvp_check_id": [768],
+    "great_league_filter": 0,
+    "ultra_league_filter": 0,
+    "great_league_best": {
+      "atk_iv": 15,
+      "def_iv": 15,
+      "sta_iv": 15,
+      "level": 50,
+      "cp": 567,
+      "stat_product": 463783.314
+    },
+    "ultra_league_best": {
+      "atk_iv": 15,
+      "def_iv": 15,
+      "sta_iv": 15,
+      "level": 50,
+      "cp": 567,
+      "stat_product": 463783.314
+    },
+    "little_league_filter": 5,
+    "little_league_best": {
+      "atk_iv": 6,
+      "def_iv": 15,
+      "sta_iv": 13,
+      "level": 50,
+      "cp": 500,
+      "stat_product": 408292.709 
+    }
+  },
+  {
+    "base_attack": 218,
+    "base_defense": 226,
+    "base_stamina": 181,
+    "pokemon_id": 768,
+    "pokemon_name": "Golisopod",
+    "pokemon_name_de": "Tectass",
+    "type": ["Bug", "Water"],
+    "type_de": ["Käfer", "Water"],
+    "pvp_check_id": [768],
+    "great_league_filter": 5,
+    "ultra_league_filter": 5,
+    "great_league_best": {
+      "atk_iv": 0,
+      "def_iv": 8,
+      "sta_iv": 15,
+      "level": 18,
+      "cp": 1499,
+      "stat_product": 1818804.627
+    },
+    "ultra_league_best": {
+      "atk_iv": 1,
+      "def_iv": 14,
+      "sta_iv": 15,
+      "level": 29.5,
+      "cp": 2500,
+      "stat_product": 3929248.708
+    },
+    "little_league_filter": 5,
+    "little_league_best": {
+      "atk_iv": 7,
+      "def_iv": 14,
+      "sta_iv": 13,
+      "level": 6,
+      "cp": 500,
+      "stat_product": 345170.443 
+    }
+  },
+  {
     "base_attack": 102,
     "base_defense": 108,
     "base_stamina": 128,
