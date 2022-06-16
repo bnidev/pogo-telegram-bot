@@ -8,7 +8,8 @@ class PokemonFilter(object):
         self.metro_list = self.load_metro_list()
         self.rare_list = config["pokemon_filter"]["rareList"]
         self.candy_list = config["pokemon_filter"]["candyList"]
-
+        self.event_list = config["pokemon_filter"]["eventList"]
+        
     def load_poi_list(self):        
         with open("data/poi_list.json") as poi_file:
             poi_list = json.load(poi_file)
@@ -24,6 +25,9 @@ class PokemonFilter(object):
         coords_poi = (lat2, lon2)
         return geopy.distance.geodesic(coords_pkm, coords_poi).km
 
+    def check_for_event_spawn(self, pokemon):
+        if pokemon['pokemon_id'] in self.event_list:
+            return True
 
     def check_for_hundo(self, pokemon):
         if pokemon["atk_iv"] == pokemon["def_iv"]  == pokemon["sta_iv"] == 15:

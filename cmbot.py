@@ -40,7 +40,9 @@ def run():
                                     if pokemon["id"] == notification["id"]:
                                         vorhanden =  True     
                                 if vorhanden != True:
-                                    nearby = pkmfilter.get_metros_and_pois(pokemon["lat"], pokemon["lon"])                              
+                                    nearby = pkmfilter.get_metros_and_pois(pokemon["lat"], pokemon["lon"])
+                                    if pkmfilter.check_for_event_spawn(pokemon):
+                                        telegram.send_event_notification("hundo", pokemon, nearby)                      
                                     telegram.send_notification("hundo", pokemon, nearby)                                
                                     notified.append({"id": pokemon["id"], "despawn": pokemon["expire_timestamp"]})
                                     time.sleep(2)
@@ -90,6 +92,8 @@ def run():
                                     if vorhanden != True:
                                         nearby = pkmfilter.get_metros_and_pois(pokemon["lat"], pokemon["lon"])                              
                                         telegram.send_pvp_notification("great", pokemon, dex_pokemon, nearby)                                
+                                        if pkmfilter.check_for_event_spawn(pokemon):
+                                            telegram.send_pvp_event_notifcation("great", pokemon, dex_pokemon, nearby)
                                         notified.append({"id": pokemon["id"], "despawn": pokemon["expire_timestamp"]})
                                         time.sleep(2)
                                     else:
