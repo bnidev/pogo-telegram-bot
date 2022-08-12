@@ -131,3 +131,6 @@ dmypy.json
 # user related .json files
 notified.json
 config.json
+
+# vscode specific settings
+.vscode
