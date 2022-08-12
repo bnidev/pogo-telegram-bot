@@ -30904,6 +30904,120 @@
     }
   },
   {
+    "base_attack": 115,
+    "base_defense": 85,
+    "base_stamina": 132,
+    "pokemon_id": 736,
+    "pokemon_name": "Grubbin",
+    "pokemon_name_de": "Mabula",
+    "type": ["Bug"],
+    "type_de": ["Käfer"],
+    "pvp_check_id": [737, 738],
+    "great_league_filter": 0,
+    "ultra_league_filter": 0,
+    "great_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0
+    },
+    "ultra_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0 
+    },
+    "little_league_filter": 0,
+    "little_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0 
+    }
+  },
+  {
+    "base_attack": 145,
+    "base_defense": 161,
+    "base_stamina": 149,
+    "pokemon_id": 737,
+    "pokemon_name": "Charjabug",
+    "pokemon_name_de": "Akkup",
+    "type": ["Bug", "Electric"],
+    "type_de": ["Käfer", "Elektro"],
+    "pvp_check_id": [737, 738],
+    "great_league_filter": 0,
+    "ultra_league_filter": 0,
+    "great_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0
+    },
+    "ultra_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0 
+    },
+    "little_league_filter": 0,
+    "little_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0 
+    }
+  },
+  {
+    "base_attack": 254,
+    "base_defense": 158,
+    "base_stamina": 184,
+    "pokemon_id": 738,
+    "pokemon_name": "Vikavolt",
+    "pokemon_name_de": "Donarion",
+    "type": ["Bug", "Electric"],
+    "type_de": ["Käfer", "Elektro"],
+    "pvp_check_id": [738],
+    "great_league_filter": 0,
+    "ultra_league_filter": 0,
+    "great_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0
+    },
+    "ultra_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0 
+    },
+    "little_league_filter": 0,
+    "little_league_best": {
+      "atk_iv": 0,
+      "def_iv": 0,
+      "sta_iv": 0,
+      "level": 0,
+      "cp": 0,
+      "stat_product": 0 
+    }
+  },
+  {
     "base_attack": 196,
     "base_defense": 145,
     "base_stamina": 181,
